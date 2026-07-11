@@ -1,0 +1,12 @@
+[submodule "skills/andrej-karpathy-skills"]
+	path = skills/andrej-karpathy-skills
+	url = https://github.com/multica-ai/andrej-karpathy-skills.git
+[submodule "skills/caveman"]
+	path = skills/caveman
+	url = https://github.com/JuliusBrussee/caveman.git
+[submodule "skills/humanizer"]
+	path = skills/humanizer
+	url = https://github.com/blader/humanizer.git
+[submodule "skills/vercel-agent-skills"]
+	path = skills/vercel-agent-skills
+	url = https://github.com/vercel-labs/agent-skills.git
