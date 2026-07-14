@@ -45,7 +45,7 @@ Kurtaš (or kurtash) is an ancient Near Eastern term from the Achaemenid (Ancien
 
 ### Hermes
 
-- [Hermes GitHub Backup - `backup.sh`](./hermes/skill/hermes-backup-github/backup.sh)
+- [Hermes GitHub Backup - `backup.sh`](./agents/hermes/skill/hermes-backup-github/backup.sh)
 
 ### OpenClaw
 
