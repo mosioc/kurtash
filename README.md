@@ -4,6 +4,7 @@ Kurtaš (or kurtash) is an ancient Near Eastern term from the Achaemenid (Ancien
 
 ## Docs
 
+- [AI Engineering](./docs/ai-engineering/README.md)
 - [Hermes](./docs/hermes/README.md)
 - [OpenClaw](./docs/openclaw/README.md)
 - [9router](./docs/9router/README.md)
