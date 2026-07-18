@@ -7,7 +7,8 @@
   - ISBN-13: 978-1098166304
   - Amazon: <https://www.amazon.com/AI-Engineering-Building-Applications-Foundation/dp/1098166302>
   - GitHub: <https://github.com/chiphuyen/aie-book>
-  
+  - PDF: <https://github.com/meerilahi/Books-Collection/blob/main/AI%20Engineering%20by%20Chip%20Huyen.pdf>
+
 - AI Engineering in 76 Minutes (Complete Course/Speedrun!)
   - <https://www.youtube.com/watch?v=JV3pL1_mn2M>
 
