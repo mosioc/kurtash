@@ -42,15 +42,13 @@ Kurtaš (or kurtash) is an ancient Near Eastern term from the Achaemenid (Ancien
 
 ## Agents
 
-(...)
-
 ### Hermes
 
 - [Hermes GitHub Backup - `backup.sh`](./agents/hermes/skill/hermes-backup-github/backup.sh)
 
 ### OpenClaw
 
-(...)
+- <https://mosioc.github.io/blog/16-openclaw/>
 
 ## CLI Code
 
@@ -61,7 +59,7 @@ Claude code, Gemini CLI, Qwen Code, Mistral Vibe, etc.
 
 ## MCP Servers
 
-(...)
+- GitHub MCP Server
 
 ### Host
 
