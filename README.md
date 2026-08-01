@@ -18,7 +18,8 @@ Kurtaš (or kurtash) is an ancient Near Eastern term from the Achaemenid (Ancien
 ## Skills
 
 - *<https://agentskills.io/>*
-- *<https://www.skills.sh/>*
+- *<https://skills.sh/>*
+- *<https://skillsmp.com/>*
 
 ---
 
