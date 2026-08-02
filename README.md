@@ -14,6 +14,8 @@ Kurtaš (or kurtash) is an ancient Near Eastern term from the Achaemenid (Ancien
 - [LLM Context Management](./docs/llm-context-management/README.md)
 - [Prompt Engineering](./docs/prompt-engineering/README.md)
 - [CLI Agent Code](./docs/cli-agent-code/README.md)
+- Papers
+  - [Attention Is All You Need](./docs/papers/attention-is-all-you-need/README.md)
 
 ## Skills
 
@@ -42,6 +44,12 @@ Kurtaš (or kurtash) is an ancient Near Eastern term from the Achaemenid (Ancien
 - [Absolute Mode](./prompts/absolute-mode/prompt.md)
 
 ## Agents
+
+## VS Code
+
+- Copilot
+- Cline
+- Continue
 
 ### Hermes
 
