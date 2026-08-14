@@ -21,7 +21,7 @@ The field has exploded due to a perfect storm: foundation models have become dra
 ### The Fundamental Difference
 
 | | Traditional ML Engineering | AI Engineering |
-|---|---|---|
+| --- | --- | --- |
 | **Core Focus** | Building and training custom models from scratch. | Building applications *on top of* pre-trained Foundation Models (FMs). |
 | **Primary Activity** | Model architecture design, feature engineering, training orchestration. | Adaptation, system orchestration, evaluation, and context construction. |
 | **Data Bottleneck** | Painstaking human data labeling was required for supervised tasks. | Solved by **self-supervision**—models learn by predicting masked or next parts of raw input data. |
@@ -83,7 +83,7 @@ Raw pre-trained models are optimized for text completion, not helpful conversati
 A model doesn't choose the single best word; it produces a probability distribution over its entire vocabulary. How you sample from this distribution fundamentally changes the output.
 
 | Parameter | Function | Practical Guidance |
-|---|---|---|
+| --- | --- | --- |
 | **Temperature** | Rescales the logits before the softmax function. A temperature < 1 sharpens the distribution (more confident), while > 1 flattens it (more random). | Use low values (e.g., 0.1-0.3) for factual/code generation; higher values (e.g., 0.7-1.0) for creative writing. |
 | **Top-K Sampling** | Restricts the sampling pool to the `K` most likely next tokens, then re-normalizes probabilities among them. | Prunes the long tail of highly improbable tokens. Typical values range from 50 to 500. |
 | **Top-P (Nucleus) Sampling** | Selects the smallest dynamic set of tokens whose cumulative probability mass exceeds threshold `P`. | A value of `0.9` means the model will only consider the tokens that together make up 90% of the probability mass. This is more dynamic than Top-K. |
@@ -152,7 +152,7 @@ You will perform model selection multiple times during development. The goal is 
 ### Commercial API vs. Self-Hosted Open-Source
 
 | Factor | Commercial Model API (e.g., GPT-4) | Self-Hosted Open-Weight Model (e.g., Llama 3) |
-|---|---|---|
+| --- | --- | --- |
 | **Data Privacy & Control** | Risk of data leaving perimeter; provider TOS may allow training on your data. | Absolute data control; suitable for air-gapped or highly regulated environments. |
 | **Provenance & IP Risk** | Unclear legal liability if the model was trained on copyrighted data. | Risk still exists depending on the model's training data, but you have full visibility. |
 | **Performance Floor/Ceiling** | Currently offers the highest capability ceiling out-of-the-box. | Gap is closing rapidly; fine-tuning can create a high ceiling for a narrow task. |
@@ -218,7 +218,7 @@ To solve a task, a model needs instructions and information. RAG (Retrieval-Augm
 ### Retrieval Algorithm Spectrum
 
 | Technique | How It Works | Strengths | Weaknesses |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Term-Based (Lexical)** | Matches exact keywords (e.g., BM25, TF-IDF). | Blazingly fast, excellent for finding specific IDs, names, or error codes. | Misses conceptual meaning; can't handle synonyms. |
 | **Embedding-Based (Semantic)** | Computes relevance by comparing the vector similarity of meaning. | Understands concepts and meaning, not just words. | Computationally expensive; struggles with exact keyword matching. |
 | **Hybrid / Reranking** | A cascading pipeline: a fast lexical retriever surfaces hundreds of candidates, a slow but precise semantic model reranks them. | The production gold standard, blending the speed of lexical with the intelligence of semantic. | More complex to build and maintain. |
@@ -338,7 +338,7 @@ A model's real-world usefulness boils down to two factors: cost and speed. Produ
 ### The Optimization Toolkit
 
 | Technique | What It Does | Why It's Critical |
-|---|---|---|
+| --- | --- | --- |
 | **Quantization** | Reduces the numerical precision of model weights (e.g., from 16-bit BF16 to 4-bit INT4). | Directly attacks the memory bandwidth bottleneck by shrinking the model's memory footprint, allowing faster data transfer. The most popular model-level optimization. |
 | **Continuous Batching** | Dynamically adds new requests to a running GPU batch and removes completed ones. | Solves the problem of static batching, where long sequences force short sequences to wait. Maximizes GPU utilization and throughput without compromising latency. |
 | **Speculative Decoding** | Uses a fast, tiny "draft" model to predict a few tokens, then uses the large model to verify them all in parallel. | Reduces the sequential bottleneck of autoregressive decoding without changing the output distribution. |

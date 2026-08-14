@@ -10,3 +10,6 @@
 [submodule "skills/vercel-agent-skills"]
 	path = skills/vercel-agent-skills
 	url = https://github.com/vercel-labs/agent-skills.git
+[submodule "skills/toefl-ibt-skill"]
+	path = skills/toefl-ibt-skill
+	url = https://github.com/mosioc/toefl-ibt-skill.git
