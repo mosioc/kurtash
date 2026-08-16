@@ -2,6 +2,8 @@
 
 Kurtaš (or kurtash) is an ancient Near Eastern term from the Achaemenid (Ancient Persian) Empire that translates generally to "worker" or "dependent laborer".
 
+- [Karpathy LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+
 ## Docs
 
 - [AI Engineering](./docs/ai-engineering/README.md)
