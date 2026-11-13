@@ -7,6 +7,8 @@ Kurtaš (or kurtash) is an ancient Near Eastern term from the Achaemenid (Ancien
 ## Docs
 
 - [AI Engineering](./docs/ai-engineering/README.md)
+- [Grokking Deep Reinforcement Learning (EN)](./docs/deep-reinforcement-learning/en/0.md)
+- [Grokking Deep Reinforcement Learning (FA)](./docs/deep-reinforcement-learning/fa/0.md)
 - [Hermes](./docs/hermes/README.md)
 - [OpenClaw](./docs/openclaw/README.md)
 - [9router](./docs/9router/README.md)
