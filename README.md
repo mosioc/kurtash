@@ -15,6 +15,9 @@ Kurtaš (or kurtash) is an ancient Near Eastern term from the Achaemenid (Ancien
 - [Model Providers - APIs](./docs/model-provider-apis/README.md)
 - [LLM Context Management](./docs/llm-context-management/README.md)
 - [Prompt Engineering](./docs/prompt-engineering/README.md)
+- [Loop Engineering](./docs/loop-engineering/README.md)
+- [Graph Engineering](./docs/graph-engineering/README.md)
+- [Harness Engineering](./docs/harness-engineering/README.md)
 - [CLI Agent Code](./docs/cli-agent-code/README.md)
 - Papers
   - [Attention Is All You Need](./docs/papers/attention-is-all-you-need/README.md)
